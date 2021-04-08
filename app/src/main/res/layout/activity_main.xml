@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <com.example.realsensecemracapture.GLRsSurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/glSurfaceView"/>
+
+    <TextView
+        android:id="@+id/connectCameraText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="#000000"
+        android:textSize="20dp"
+        android:text="Connect a RealSense camera"
+        android:textColor="#ffffff"/>
+
+
+
+</FrameLayout>
